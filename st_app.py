@@ -2,6 +2,7 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import pickle
+import xgboost
 import matplotlib.pyplot as plt
 
 equip_dict = {'10003540':0,
